@@ -82,7 +82,7 @@ li {
 
 }
 
-.fa-brands {
+.fa-instagram, .fa-linkedin,.fa-github {
   color: white;
   font-size: 20px;
   margin-right: 10px;
@@ -138,7 +138,54 @@ li {
 .scroll:hover {
   --d: -100%;
 }
-
 .skill {
-  height: 1000px;
+  position: relative;
+  font-family: "Josefin Sans";
+  padding-bottom: 1000px;
+}
+.skill img {
+  width: 450px;
+  height: auto;
+  border-radius:  50%;
+  position: absolute;
+  top: 150px;
+  left: 15%;
+}
+
+.description {
+  position: absolute;
+  top: 190px;
+  left: 50%;
+}
+
+.description h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 25px;
+  cursor: pointer;
+  background: 
+    linear-gradient(90deg, transparent calc(100%/4), currentColor 0 calc(300%/4), transparent 0) 
+    var(--d,100%) 100% /200% 3px 
+    repeat-x;
+  transition:0.5s;
+}
+
+.description h3:hover {
+  --d: -100%;
+}
+
+.description p {
+  margin-bottom: 60px;
+  text-align: center;
+  margin-top: 25px;
+}
+.fa-html5,.fa-css3,.fa-square-js,.fa-node,.fa-database {
+  font-size: 100px;
+  cursor: pointer;
+  width: 19%;
+  text-align: center;
+}
+
+.fa-node {
+  margin-right: 13px;
 }
