@@ -5,6 +5,10 @@
   
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
 header {
   z-index:10;
   background-color: rgba(0, 0, 0, 0.7);
@@ -311,4 +315,86 @@ footer p {
 
 .right-footer span {
   font-size: 25px;
+}
+
+
+
+
+@media (max-width:1000px){
+
+}
+
+@media (max-width:670px){
+
+  .about-paragraph h1 {
+    font-size: 40px;
+  }
+
+  .about-paragraph p {
+    font-size: 15px;
+  }
+
+  .skill {
+    height: 900px;
+  }
+
+  .skill img {
+    width: 200px;
+    left: 25%;
+    top: 0%;
+  }
+
+  .description {
+    position: absolute;
+    top: 250px;
+    left: 9%;
+  }
+
+  .fa-html5,.fa-css3,.fa-square-js,.fa-node,.fa-database {
+    font-size: 70px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+  }
+
+  .mid-list{
+    display: none;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .contact-container {
+    left:20%;
+    
+  }
+
+  .contact-container h3 {
+    font-size: 20px;
+    padding-bottom: 5px;
+  }
+
+  .contact-container h5 {
+    font-size: 15px;
+  }
+  .icon-contact {
+    font-size: 70px;
+  }
+
+  .portofolio-paragraph h1 {
+    font-size: 70px;
+  }
+
+  .header-title a{
+    padding-left: 0px;
+    
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
+  
+  
 }
