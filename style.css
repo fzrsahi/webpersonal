@@ -27,13 +27,14 @@ left: 15%;
 
 }
 
-.header-title {
+.header-title a{
   cursor: pointer;
   float: left;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   padding-left: 50px;
+  color: white;
   
 }
 
@@ -82,7 +83,7 @@ li {
 
 }
 
-.fa-instagram, .fa-linkedin,.fa-github {
+.fa-instagram, .fa-linkedin-in,.fa-github {
   color: white;
   font-size: 20px;
   margin-right: 10px;
@@ -156,7 +157,7 @@ li {
 .description {
   position: absolute;
   top: 190px;
-  left: 50%;
+  left: 45%;
 }
 
 .description h3 {
@@ -240,6 +241,74 @@ li {
 .contact-wrapper {
   background-color: #f7f7f7;
   height: 500px;
-
+  position: relative;
 }
 
+.contact-container {
+  position: absolute;
+  text-align: center;
+  top: 100px;
+  left: 30%;
+  font-family: "Josefin Sans";
+}
+
+.contact-container h3 {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 25px;
+  cursor: pointer;
+  background: 
+    linear-gradient(currentColor 0 0) left  var(--p, 50%) bottom 0 /var(--d, 10%) 3px no-repeat,
+    linear-gradient(currentColor 0 0) right var(--p, 50%) bottom 0 /var(--d, 10%) 3px no-repeat;
+  transition: 0.3s, background-position 0.3s 0.3s;
+}
+
+.contact-container h3:hover {
+  -d: 50%;
+  --p: 50.1%;
+  transition: cubic-bezier(0, 500, 1, 500) 0.3s, background-size 0.3s 0.3s;
+}
+
+.icon-contact {
+  font-size: 100px;
+}
+
+.fa-square-instagram,.fa-square-github,.fa-linkedin {
+  color :black;
+}
+
+.contact-container p {
+  margin : 25px 0;
+}
+.contact-container h5 {
+  font-size: 50px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  font-family: "Josefin Sans";
+  height: 150px;
+  position: relative;
+}
+
+footer p {
+  position: absolute;
+  top: 90px;
+  left: 7%;
+}
+
+.right-footer {
+  margin-top: 100px;
+  margin-right: 45px;
+  float: right;
+  color: white;
+}
+
+.right-footer a {
+  color: white;
+}
+
+.right-footer span {
+  font-size: 25px;
+}
