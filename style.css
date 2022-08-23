@@ -141,15 +141,16 @@ li {
 .skill {
   position: relative;
   font-family: "Josefin Sans";
-  padding-bottom: 1000px;
+  height: 700px;
+  background-color: #f7f7f7;
 }
 .skill img {
   width: 450px;
   height: auto;
   border-radius:  50%;
   position: absolute;
-  top: 150px;
-  left: 15%;
+  top: 120px;
+  left: 10%;
 }
 
 .description {
@@ -189,3 +190,56 @@ li {
 .fa-node {
   margin-right: 13px;
 }
+
+.about-wrapper , .portofolio-wrapper{
+  height: 700px;
+  position: relative;
+}
+
+
+.about-paragraph,.portofolio-paragraph {
+  position: absolute;
+  font-family: "Josefin Sans";
+  top: 100px;
+  left: 10%;
+}
+
+.about-paragraph h5 , .portofolio-paragraph h3 {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.about-paragraph span {
+  width: 100px;
+}
+.about-paragraph h1,.portofolio-paragraph h1 {
+  margin-bottom: 25px;
+  font-size: 100px;
+}
+
+.about-paragraph h1 span {
+  color:#999;
+  cursor: pointer;
+  background: 
+    linear-gradient(currentColor 0 0) left  var(--p, 50%) bottom 0 /var(--d, 10%) 3px no-repeat,
+    linear-gradient(currentColor 0 0) right var(--p, 50%) bottom 0 /var(--d, 10%) 3px no-repeat;
+  transition: 0.3s, background-position 0.3s 0.3s;
+}
+
+.about-paragraph h1 span:hover {
+  -d: 50%;
+  --p: 50.1%;
+  transition: cubic-bezier(0, 500, 1, 500) 0.3s, background-size 0.3s 0.3s;
+}
+
+.about-paragraph p ,.about-paragraph p{
+  font-size: 30px;
+  color:#999;
+}
+
+.contact-wrapper {
+  background-color: #f7f7f7;
+  height: 500px;
+
+}
+
